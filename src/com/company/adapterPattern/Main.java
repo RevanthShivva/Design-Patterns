@@ -2,11 +2,11 @@ package com.company.adapterPattern;
 
 public class Main {
     public static void main(String[] args) {
-        Camera camera = new Camera();
+        CameraApplication cameraApplication = new CameraApplication();
 
-        camera.capture("normal");
-        camera.capture( "night");
-        camera.capture( "portrait");
+        cameraApplication.capture("normal");
+        cameraApplication.capture( "night");
+        cameraApplication.capture( "portrait");
 
     }
 }

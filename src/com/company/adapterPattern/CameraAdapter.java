@@ -2,7 +2,7 @@ package com.company.adapterPattern;
 
 
 
-class CameraAdapter implements NormalCamera{
+class CameraAdapter implements Camera {
 
     AdvancedCamera advancedCamera;
 
@@ -20,10 +20,10 @@ class CameraAdapter implements NormalCamera{
     public void capture( String fileName) {
 
         if(fileName.equalsIgnoreCase("night")){
-            advancedCamera.nightScape(fileName);
+            advancedCamera.capture(fileName);
         }
         else if(fileName.equalsIgnoreCase("portrait")){
-            advancedCamera.portrait(fileName);
+            advancedCamera.capture(fileName);
         }
     }
 }
