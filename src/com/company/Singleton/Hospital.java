@@ -21,4 +21,7 @@ public class Hospital {
 
         return hospital;
     }
+    public void c(){
+        System.out.println(hospital);
+    }
 }

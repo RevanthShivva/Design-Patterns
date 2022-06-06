@@ -19,10 +19,16 @@ public class College {
     }
     public static College createCollege(){
         if(college == null){
-            return new College();
+
+            college= new College();
         }
+
         return college;
     }
+    public void c(){
+        System.out.println(college);
+    }
+
 
 
 }
